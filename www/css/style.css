@@ -6,11 +6,11 @@
 
 header {
     display: flex;
-    background-color: yellow;
+    background-color: #FCD116;
     justify-content: center;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 300px;
+    height: 370px;
     flex-direction: column;
 }
 .header_title{
@@ -19,4 +19,17 @@ header {
 }
 .header_subtext {
     font-size: 30px;
+}
+main {
+    background-color: #003893;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200px;
+}
+footer {
+    background-color: #CE1126;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 172px;
 }

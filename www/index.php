@@ -15,8 +15,12 @@
         <p class="header_subtext">Het beste eten van Colombia</p>
     </header>
     <main>
-
+        <h2>Main Content</h2>
+        <p>This is the main content of your page.</p>
     </main>
+    <footer>
+        <p>Footer Content</p>
+    </footer>
 </body>
 
 </html>
