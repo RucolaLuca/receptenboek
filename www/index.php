@@ -11,12 +11,18 @@
 
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="https://github.com/RucolaLuca">About Me</a></li>
+            </ul>
+        </nav>
         <h1 class="header_title">Colombite</h1>
         <p class="header_subtext">Het beste eten van Colombia</p>
     </header>
     <main>
-        <h2>Main Content</h2>
-        <p>This is the main content of your page.</p>
+        <h2>Wilt u graag eens iets maken uit de Colombiaanse keuken?</h2>
+        <h3>Dan bent u hier op de goede plek!</h3>
     </main>
     <footer>
         <p>Footer Content</p>
