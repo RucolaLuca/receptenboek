@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$databaseName = "";
+$databaseName = "receptenboek";
 $conn = mysqli_connect($host, $user, $password, $databaseName);
 if (mysqli_connect_error()) {
     echo "Er is een error. Probeer opnieuw.";
