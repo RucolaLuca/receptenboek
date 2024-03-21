@@ -17,7 +17,7 @@
                 <li><a href="https://github.com/RucolaLuca">About Me</a></li>
             </ul>
         </nav>
-        <h1 class="header_title">Colombite</h1>
+        <h1 class="header_title"><a href="recepten.php" class="header_title">Colombite</a></h1>
         <p class="header_subtext">Het beste eten van Colombia</p>
     </header>
     <main>
