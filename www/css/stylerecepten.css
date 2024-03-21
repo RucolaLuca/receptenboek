@@ -11,14 +11,13 @@ header {
     align-items: center;
     background-color: #FCD116;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 370px;
-    padding: 20px;
+    height: 70px;
+    padding: 0 20px;
     position: relative;
 }
 .header_title{
-    font-size: 50px;
-    margin-bottom: 5px;
-    margin-top: 130px;
+    font-size: 24px;
+    margin: 0;
     text-decoration: none;
     color: black;
 }
@@ -27,17 +26,16 @@ header {
     margin-bottom: 100px;
 }
 nav {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    display: flex; 
+    align-items: center; 
 }
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex; 
 }
 nav ul li {
-    display: inline;
     margin-right: 10px;
 }
 nav ul li a {
@@ -54,11 +52,10 @@ nav ul li:last-child{
 }
 main {
     background-color: #003893;
-    padding: 20px;
+    padding: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 200px;
+    height: 450px;
     text-align: center;
-    color: white;
 }
 footer {
     background-color: #CE1126;
@@ -96,21 +93,30 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: -10px; 
 }
 .recept {
     width: calc(25% - 20px);
     margin-bottom: 20px;
-}
-.product a {
-    display: block;
+    padding: 10px;
+    box-sizing: border-box;
     text-align: center;
+}
+.recept a {
+    display: block;
     text-decoration: none;
+    color: black;
 }
-.product img {
-    width: 22%;
+.recept img {
+    max-width: 80%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
-.product h2 {
-    margin-top: 10px;
+.recept h2 {
+    margin-top: 0px;
     font-size: 18px;
+}
+.recept:last-child {
+    margin-right: 0;
 }

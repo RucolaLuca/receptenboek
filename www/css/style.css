@@ -101,16 +101,16 @@ footer {
     width: calc(25% - 20px);
     margin-bottom: 20px;
 }
-.product a {
+.recept a {
     display: block;
     text-align: center;
     text-decoration: none;
 }
-.product img {
+.recept img {
     width: 22%;
     height: auto;
 }
-.product h2 {
+.recept h2 {
     margin-top: 10px;
     font-size: 18px;
 }
