@@ -31,10 +31,14 @@ $receptenboek = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <tr>
                         <td>
                             <a href="recept.php?id=<?php echo $recept["id"] ?>">
-                                <img src="Images/<?php echo $recept["afbeelding"] ?>" alt="Recept Afbeelding" width="22%" height="auto">
+                                <img src="Images/<?php echo $recept["afbeelding"] ?>" alt="Recept Afbeelding" width="22%" height="auto" class="recept">
                             </a>
                         </td>
-                        <td><?php echo $recept["naam"] ?></td>
+                        <td>
+                            <a href="recept.php?id=<?php echo $recept["id"] ?>">
+                                <?php echo $recept["naam"] ?>
+                            </a>
+                        </td>
                     </tr>
                 <?php endforeach ?>
             </div>
