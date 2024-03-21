@@ -5,7 +5,7 @@ $password = "";
 $databaseName = "receptenboek";
 $conn = mysqli_connect($host, $user, $password, $databaseName);
 if (mysqli_connect_error()) {
-    echo "Er is een error. Probeer opnieuw.";
+    //echo "Er is een error. Probeer opnieuw.";
 } else {
-    echo "De connectie is gelukt.";
+    //echo "De connectie is gelukt.";
 }
