@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCD116;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 370px;
+    padding: 20px;
+    position: relative;
+}
+.header_title{
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 130px;
+    text-decoration: none;
+    color: black;
+}
+.header_subtext {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: 2px solid #333; 
+    padding: 5px 10px; 
+    background-color: white;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+main {
+    background-color: #003893;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+footer {
+    background-color: #CE1126;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 172px;
+}
+
+.person-list {
+    margin-bottom: 20px;
+}
+
+.person-list h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.person-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.person-list ul li {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.recepten_title {
+    text-align: center;
+}
+.recept_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recept {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+}
+.product a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.product img {
+    width: 22%;
+    height: auto;
+}
+.product h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
