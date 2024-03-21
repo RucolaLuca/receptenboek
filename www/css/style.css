@@ -89,17 +89,28 @@ footer {
     font-size: 16px;
     margin-bottom: 5px;
 }
-.recept {
+.recepten_title {
+    text-align: center;
+}
+.recept_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.recept a{
-    flex-basis: calc(25% - 10px);
+.recept {
+    width: calc(25% - 20px);
     margin-bottom: 20px;
 }
-.recept img{
-    width: 100%;
+.product a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.product img {
+    width: 22%;
     height: auto;
 }
-
+.product h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
