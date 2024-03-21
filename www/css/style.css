@@ -65,3 +65,26 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 172px;
 }
+
+.person-list {
+    margin-bottom: 20px;
+}
+
+.person-list h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.person-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.person-list ul li {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+

@@ -23,9 +23,17 @@
     <main>
         <h2>Wilt u graag eens iets maken uit de Colombiaanse keuken?</h2>
         <h3>Dan bent u hier op de goede plek!</h3>
+        <h3>Hier bij Colombite hebben we de lekkerste recepten voor u!</h3>
     </main>
     <footer>
-        <p>Footer Content</p>
+        <div class="person-list">
+            <h3>Maak kennis met het team</h3>
+            <ul>
+                <li>Projectleider: Cornelius Arne</li>
+                <li>Begeleider: ICT Academie Nova College Haarlem</li>
+                <li>Developer: Luca Wijsman</li>
+            </ul>
+        </div>
     </footer>
 </body>
 
