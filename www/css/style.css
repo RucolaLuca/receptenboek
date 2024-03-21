@@ -89,4 +89,17 @@ footer {
     font-size: 16px;
     margin-bottom: 5px;
 }
+.recept {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recept a{
+    flex-basis: calc(25% - 10px);
+    margin-bottom: 20px;
+}
+.recept img{
+    width: 100%;
+    height: auto;
+}
 
