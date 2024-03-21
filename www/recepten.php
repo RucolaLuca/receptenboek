@@ -29,12 +29,12 @@ $receptenboek = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <div class="recept">
                 <?php foreach ($receptenboek as $recept) : ?>
                     <tr>
-                        <td><?php echo $recept["id"] ?></td>
                         <td>
                             <a href="recept.php?id=<?php echo $recept["id"] ?>">
-                                <img src="<?php echo $recept["afbeelding"] ?>" alt="Recept Afbeelding">
+                                <img src="Images/<?php echo $recept["afbeelding"] ?>" alt="Recept Afbeelding" width="22%" height="auto">
                             </a>
                         </td>
+                        <td><?php echo $recept["naam"] ?></td>
                     </tr>
                 <?php endforeach ?>
             </div>
