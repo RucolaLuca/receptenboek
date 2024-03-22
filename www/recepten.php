@@ -20,6 +20,7 @@ $receptenboek = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="https://github.com/RucolaLuca">About Me</a></li>
+                <li><a href="specials.php">Specials</a></li>
             </ul>
         </nav>
         <h1 class="recepten_title">Colombite</h1>
@@ -28,14 +29,17 @@ $receptenboek = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <div class="recept_container">
             <?php foreach ($receptenboek as $recept) : ?>
                 <div class="recept">
-                <a href="recept.php?id=<?php echo $recept["id"] ?>">
-                    <img src="Images/<?php echo $recept["afbeelding"] ?>" alt="Recept Afbeelding">
-                    <h2><?php echo $recept["naam"] ?></h2>
-                </a>
+                    <a href="recept.php?id=<?php echo $recept["id"] ?>">
+                        <img src="Images/<?php echo $recept["afbeelding"] ?>" alt="Recept Afbeelding">
+                        <h2><?php echo $recept["naam"] ?></h2>
+                    </a>
                 </div>
             <?php endforeach ?>
         </div>
     </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
