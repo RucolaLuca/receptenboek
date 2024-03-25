@@ -34,7 +34,7 @@ $recept = mysqli_fetch_assoc($result);
             <h1><b><?php echo $recept["naam"] ?></b></h1>
             <h2><b>Aantal Ingrediënten: <?php echo $recept["aantal_ingrediënten"] ?></b></h2>
             <h2><b>Menugang: <?php echo $recept["menugang"] ?></b></h2>
-            <h2><b>Bereidingstijd: <?php echo $recept["duur(min)"] ?> min</b></h2>
+            <h2><b>Bereidingstijd: <?php echo $recept["duur"] ?> min</b></h2>
         </div>
     </main>
     <footer>
