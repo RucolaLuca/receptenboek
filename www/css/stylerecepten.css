@@ -128,3 +128,19 @@ footer {
 .recept:last-child {
     margin-right: 0;
 }
+.detail_image {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    max-height: 300px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.detail_recept {
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
