@@ -101,7 +101,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: -10px; 
-    align-items: center;
 }
 .recept {
     width: calc(25% - 20px);
@@ -137,14 +136,56 @@ footer {
     display: block; 
     margin: 0 auto; 
     max-height: 300px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 .detail_recept {
     width: 300px;
     overflow: hidden;
-    margin: auto;
+    text-overflow: ellipsis;
 }
-.recept_text {
+.specials_container {
+    display: flex;
+}
+.left, .right {
+    width: 25%;
+}
+.right li {
+    width: 25%;
+    float: right;
+    padding-left: 150px;
+}
+.middle {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle ol .special_a_ingredient {
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: -80px;
+}
+.middle h2 {
+    text-align: center;
+}
+.middle ol {
+    padding: 0;
+    list-style: none;
+}
+.middle li {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.specials_container h2 {
+    text-align: center;
+}
+.specials_container ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.specials_container .special_time {
+    font-weight: bold;
+    color: #333;
 }
