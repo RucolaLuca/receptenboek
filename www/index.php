@@ -14,9 +14,9 @@
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="recepten.php">Recepten</a></li>
-                <li><a href="https://github.com/RucolaLuca">About Me</a></li>
+                <li><a href="recepten.php">Recipes</a></li>
                 <li><a href="specials.php">Specials</a></li>
+                <li><a href="https://github.com/RucolaLuca">About Me</a></li>
             </ul>
         </nav>
         <h1 class="header_title"><a href="recepten.php" class="header_title">Colombite</a></h1>
