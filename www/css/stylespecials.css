@@ -61,14 +61,6 @@ main {
     height: 600px;
     text-align: center;
 }
-footer {
-    background-color: #684035;
-    text-align: center;
-    padding: 10px 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 72px;
-    margin-top: -0px;
-}
 
 .person-list {
     margin-bottom: 20px;
@@ -156,6 +148,9 @@ footer {
     float: right;
     padding-left: 150px;
 }
+.left ol {
+    list-style: none;
+}
 .middle {
     width: 50%;
     display: flex;
@@ -188,4 +183,31 @@ footer {
 .specials_container .special_time {
     font-weight: bold;
     color: #333;
+}
+footer {
+    background-color: #684035;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 72px;
+}
+.footer_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.footer_sociall {
+    align-items: center;
+    background-color: 684035;
+    height: 72px;
+}
+.footer_sociall a {
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer_sociall a img {
+    width: 40px;
+    height: auto;
+    align-items: center;
 }
