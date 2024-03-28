@@ -21,19 +21,7 @@ $totaal_recepten = $aantal_recepten_row['totaal_recepten'];
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="https://github.com/RucolaLuca">About Me</a></li>
-                <li><a href="specials.php">Specials</a></li>
-            </ul>
-        </nav>
-        <h1 class="recepten_title">Colombite</h1>
-        <div class="recipe_count">
-            Totaal Recepten:<?php echo $totaal_recepten; ?>
-        </div>
-    </header>
+    <?php require "header.php" ?>
     <main>
         <div class="recept_text">
             <h2>Hieronder vindt u alle lekkere gerechten!</h2>
@@ -49,9 +37,7 @@ $totaal_recepten = $aantal_recepten_row['totaal_recepten'];
             <?php endforeach ?>
         </div>
     </main>
-    <footer>
-
-    </footer>
+    <?php require "footer.php" ?>
 </body>
 
 </html>

@@ -22,20 +22,7 @@ $totaal_recepten = $aantal_recepten_row['totaal_recepten'];
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="recepten.php">Recipes</a></li>
-                <li><a href="https://github.com/RucolaLuca">About Me</a></li>
-                <li><a href="specials.php">Specials</a></li>
-            </ul>
-        </nav>
-        <h1 class="recepten_title">Colombite</h1>
-        <div class="recipe_count">
-            Totaal Recepten:<?php echo $totaal_recepten; ?>
-        </div>
-    </header>
+    <?php require "header.php" ?>
     <main>
         <div class="detail_recept">
             <img src="images/<?php echo $recept["afbeelding"] ?>" alt="Niet Gelukt" class="detail_image">
@@ -45,9 +32,7 @@ $totaal_recepten = $aantal_recepten_row['totaal_recepten'];
             <h2><b>Bereidingstijd: <?php echo $recept["duur"] ?> min</b></h2>
         </div>
     </main>
-    <footer>
-        eee
-    </footer>
+    <?php require "footer.php" ?>
 </body>
 
 </html>
